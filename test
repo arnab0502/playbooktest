@@ -1,0 +1,7 @@
+- name: printing message
+  hosts: webserver 
+  tasks: 
+  - name: creating file
+    debug: 
+     msg: "hello this is arnab from {ansible_distribution}
+     
