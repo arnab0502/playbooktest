@@ -3,5 +3,5 @@
   tasks: 
   - name: creating file
     debug: 
-     msg: "hello this is arnab from {ansible_distribution}
+     msg: "hello this is arnab from "{{ansible_distribution}}"
      
